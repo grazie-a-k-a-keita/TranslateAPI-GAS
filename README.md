@@ -1,6 +1,6 @@
 ## TranslateAPI-GAS
 
-GAS を使用した翻訳 API
+GAS を使用した LINE の翻訳 Bot
 
 ## API の使用方法
 
