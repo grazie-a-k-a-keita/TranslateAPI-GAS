@@ -1,4 +1,4 @@
-## translateBot-LINE
+## TranslateBot-LINE
 
 GAS を使用した LINE の翻訳 Bot
 
