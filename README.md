@@ -17,18 +17,18 @@ https://cloud.google.com/translate/docs/languages?hl=ja
 
 ### Request URL
 
-```
+```js
 ${ deployURL } + "?text=" + ${ text } + "&sourceLanguage=" + ${ sourceLanguage } + "&targetLanguage=" + ${ targetLanguage }
 ```
 
 ### Response
 
-```
+```js
 Success
 { code: 200, text: ${ translatedText} }
 ```
 
-```
+```js
 Error
 { code: 400, text: "Bad Request" }
 ```
