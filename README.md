@@ -1,2 +1,34 @@
-# TranslateAPI-GAS
-GASを使用した翻訳API
+## TranslateAPI-GAS
+
+GAS を使用した翻訳 API
+
+## API の使用方法
+
+### Parameter
+
+| 名前           | 型     | 説明                                                                   |
+| :------------- | :----- | :--------------------------------------------------------------------- |
+| text           | String | 翻訳するテキスト                                                       |
+| sourceLanguage | String | テキストが書かれている言語コード<br> ※空の文字列は言語コードが自動検出 |
+| targetLanguage | String | テキストを翻訳する言語コード                                           |
+
+※文字コード<br>
+https://cloud.google.com/translate/docs/languages?hl=ja
+
+### Request URL
+
+```
+${ deployURL } + "?text=" + ${ text } + "&sourceLanguage=" + ${ sourceLanguage } + "&targetLanguage=" + ${ targetLanguage }
+```
+
+### Response
+
+```
+Success
+{ code: 200, text: ${ translatedText} }
+```
+
+```
+Error
+{ code: 400, text: "Bad Request" }
+```
