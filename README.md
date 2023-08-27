@@ -2,7 +2,7 @@
 
 GAS を使用した LINE の翻訳 Bot
 
-## API の使用方法
+## 翻訳 API の使用方法
 
 ### Parameter
 
