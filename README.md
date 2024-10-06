@@ -1,10 +1,10 @@
-## TranslateBot-LINE
+## TranslateBot LINE
 
 GAS を使用した LINE の翻訳 Bot
 
-## 翻訳 API の使用方法
+### 翻訳 API の使用方法
 
-### Parameter
+#### Parameter
 
 | 名前           | 型     | 説明                                                                   |
 | :------------- | :----- | :--------------------------------------------------------------------- |
@@ -15,13 +15,13 @@ GAS を使用した LINE の翻訳 Bot
 ※文字コード<br>
 https://cloud.google.com/translate/docs/languages?hl=ja
 
-### Request URL
+#### Request URL
 
 ```js
 ${ deployURL } + "?text=" + ${ text } + "&sourceLanguage=" + ${ sourceLanguage } + "&targetLanguage=" + ${ targetLanguage }
 ```
 
-### Response
+#### Response
 
 ```js
 Success
